@@ -4,12 +4,14 @@
 	"colors": {
 
 // BASIC COLORS
-    //Border Colors
+    // Border Colors
         "focusBorder": "#f38518", // all active borders including sidebar, default: #f38518 , #aabbee, #ff0400
 		//"contrastActiveBorder": "#ff0404", // active borders not including sidebar "#3b3b37",
 		"contrastBorder": "#3b3b37", //"#3b3b37", //border around everything regardless of whether it is active
 		//"tab.activeBorder": "#689d6a", //bar below active tab
 		//"statusBar.border": "#689d6a",
+
+    // Misc Colors
 		"activityBar.activeBackground": "#c6fd00",
 		"activityBar.activeBorder": "#c6fd00",
 		"activityBarBadge.foreground": "#c6fd00",
@@ -62,7 +64,7 @@
 		"tab.inactiveBackground": "#4d4a4a69",
 		"tab.unfocusedActiveForeground": "#c6fd008c",
 
-    // TERMINAL COLORS
+    // Terminal Colors
 		"terminal.foreground": "#ffffff", //to match editor color, make #eeeeee
 		"terminalCursor.background": "#000000",
 		"terminalCursor.foreground": "#eeeeee",
