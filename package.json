@@ -1,0 +1,21 @@
+{
+    "name": "vivid-contrast",
+    "displayName": "vivid-contrast",
+    "description": "Opinionated color theme inspired by Nicer High Contrast and vividchalk",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vivid-contrast",
+                "uiTheme": "hc-black",
+                "path": "./themes/vivid-contrast-color-theme.json"
+            }
+        ]
+    }
+}
