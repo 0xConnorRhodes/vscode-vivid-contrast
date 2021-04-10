@@ -4,6 +4,12 @@
 	"colors": {
 
 // BASIC COLORS
+    //Border Colors
+        "focusBorder": "#ff0404", // all active borders including sidebar, default: #f38518 , #aabbee
+		//"contrastActiveBorder": "#ff0404", // active borders not including sidebar "#3b3b37",
+		"contrastBorder": "#3b3b37", //"#3b3b37", //border around everything regardless of whether it is active
+		//"tab.activeBorder": "#689d6a", //bar below active tab
+		//"statusBar.border": "#689d6a",
 		"activityBar.activeBackground": "#c6fd00",
 		"activityBar.activeBorder": "#c6fd00",
 		"activityBarBadge.foreground": "#c6fd00",
@@ -11,7 +17,6 @@
 		"breadcrumb.focusForeground": "#c6fd00",
 		"breadcrumb.activeSelectionForeground": "#c6fd00",
 		"breadcrumbPicker.background": "#3b3b37",
-		"contrastBorder": "#3b3b37",
 		"diffEditor.insertedTextBorder": "#269424f3",
 		"diffEditor.insertedTextBackground": "#2694244c",
 		"diffEditor.removedTextBorder": "#8c1212",
@@ -30,7 +35,6 @@
 		"editorLineNumber.activeForeground": "#c6fd00",
         "editorLineNumber.foreground": "#a8a8a8",
 		"editorLink.activeForeground": "#c6fd00",
-        "focusBorder": "#f38518", //border of focused item/pane
 		"inputOption.activeBorder": "#77ccfa",
 		"list.activeSelectionBackground": "#4d4a4a",
 		"list.dropBackground": "#ffffff4b",
@@ -99,7 +103,8 @@
 			}
 		},
 		{
-			"scope": "comment", // comment color
+    // Comments Appearance
+			"scope": "comment", 
 			"settings": {
 				"foreground": "#9933cc", //vscode default #7ca668
 			    "fontStyle": "italic" //comments in italics
