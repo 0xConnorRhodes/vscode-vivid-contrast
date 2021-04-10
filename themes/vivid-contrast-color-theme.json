@@ -57,9 +57,11 @@
 		"tab.inactiveModifiedBorder": "#77ccfa73",
 		"tab.inactiveBackground": "#4d4a4a69",
 		"tab.unfocusedActiveForeground": "#c6fd008c",
-		"terminal.foreground": "#839496",
-		"terminalCursor.background": "#003541",
-		"terminalCursor.foreground": "#839496",
+
+    // TERMINAL COLORS
+		"terminal.foreground": "#eeeeee",
+		"terminalCursor.background": "#000000",
+		"terminalCursor.foreground": "#eeeeee",
 		"titleBar.activeForeground": "#77ccfa",
 
 // COMMENTS
