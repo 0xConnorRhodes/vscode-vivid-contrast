@@ -2,6 +2,7 @@
     "name": "vivid-contrast",
     "displayName": "vivid-contrast",
     "description": "Opinionated color theme inspired by Nicer High Contrast and vividchalk",
+    "repository": "https://github.com/0xConnorRhodes/vscode-vivid-contrast",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.46.0"
