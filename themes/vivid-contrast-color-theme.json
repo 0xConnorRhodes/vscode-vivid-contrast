@@ -101,7 +101,8 @@
 		{
 			"scope": "comment", // comment color
 			"settings": {
-				"foreground": "#7CA668"
+				"foreground": "#9933cc", //vscode default #7ca668
+			    "fontStyle": "italic"
 			}
 		},
 		{
@@ -514,5 +515,5 @@
 				"foreground": "#B267E6"
 			}
 		}
-	]
+	],
 }
