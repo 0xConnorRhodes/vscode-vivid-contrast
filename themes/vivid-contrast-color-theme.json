@@ -59,7 +59,7 @@
 		"tab.unfocusedActiveForeground": "#c6fd008c",
 
     // TERMINAL COLORS
-		"terminal.foreground": "#eeeeee",
+		"terminal.foreground": "#ffffff", //to match editor color, make #eeeeee
 		"terminalCursor.background": "#000000",
 		"terminalCursor.foreground": "#eeeeee",
 		"titleBar.activeForeground": "#77ccfa",
