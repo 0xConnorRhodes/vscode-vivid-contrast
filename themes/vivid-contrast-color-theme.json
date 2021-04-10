@@ -14,8 +14,8 @@
 		"diffEditor.insertedTextBackground": "#2694244c",
 		"diffEditor.removedTextBorder": "#8c1212",
 		"diffEditor.removedTextBackground": "#8c12127c",
-		"editor.background": "#000000",
-		"editor.foreground": "#ffffff",
+		"editor.background": "#000000", //also could be #141414
+		"editor.foreground": "#eeeeee", //default #ffffff
 		"editor.lineHighlightBorder": "#fbff007a",
 		"editor.selectionBackground": "#fbff007a",
 		"editor.selectionForeground": "#000000",
@@ -26,8 +26,9 @@
 		"editorGroup.dropBackground": "#ffffff4b",
 		"editorGroupHeader.tabsBackground": "#4d4a4a69",
 		"editorLineNumber.activeForeground": "#c6fd00",
+        "editorLineNumber.foreground": "#a8a8a8",
 		"editorLink.activeForeground": "#c6fd00",
-		"focusBorder": "#00000000",
+        "focusBorder": "#f38518", //border of focused item/pane
 		"inputOption.activeBorder": "#77ccfa",
 		"list.activeSelectionBackground": "#4d4a4a",
 		"list.dropBackground": "#ffffff4b",
@@ -135,8 +136,8 @@
 		//"editorHoverWidget.border": "#3b3b37",
 		//"editorHoverWidget.foreground": "#ffffff",
 		//"editorHoverWidget.statusBarBackground": "#0c141f",
-		//"editorIndentGuide.activeBackground": "#e3e4e229",
-		//"editorIndentGuide.background": "#e3e4e229",
+        "editorIndentGuide.activeBackground": "#b1b1b1", //non-active indent guide
+        "editorIndentGuide.background": "#313031" //indent guide the cursor is in
 		//"editorInfo.border": "#75beffcc",
 		//"editorLightBulb.foreground": "#ffcc00",
 		//"editorLightBulbAutoFix.foreground": "#75beff",
