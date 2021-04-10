@@ -2,6 +2,8 @@
 	"name": "vivid-contrast",
 	"type": "dark",
 	"colors": {
+
+// BASIC COLORS
 		"activityBar.activeBackground": "#c6fd00",
 		"activityBar.activeBorder": "#c6fd00",
 		"activityBarBadge.foreground": "#c6fd00",
@@ -22,7 +24,7 @@
 		"editor.selectionHighlightBorder": "#c6fd008c",
     "editor.findMatchBackground": "#fbff007a",
     "editor.findMatchHighlightBackground": "#fbff007a",
-		"editorRuler.foreground": "#77ccfa73",
+        "editorRuler.foreground": "#ffffff57", //was "#77ccfa73",
 		"editorGroup.dropBackground": "#ffffff4b",
 		"editorGroupHeader.tabsBackground": "#4d4a4a69",
 		"editorLineNumber.activeForeground": "#c6fd00",
@@ -59,6 +61,8 @@
 		"terminalCursor.background": "#003541",
 		"terminalCursor.foreground": "#839496",
 		"titleBar.activeForeground": "#77ccfa",
+
+// COMMENTS
 		//"activityBar.background": "#000000",
 		//"activityBar.border": "#3b3b37",
 		//"activityBar.dropBackground": "#ffffff1f",
@@ -354,6 +358,8 @@
 		//"window.activeBorder": "#3b3b37",
 		//"window.inactiveBorder": "#3b3b37"
 	},
+
+// SYNTAX HIGHLIGHTING
 	"tokenColors": [
 		{
 			"scope": [
@@ -362,7 +368,7 @@
 			],
 			"settings": {
 				"foreground": "#FFFFFF",
-				"background": "#000000"
+				//"background": "#000000"
 			}
 		},
 		{
@@ -384,7 +390,7 @@
 			}
 		},
 		{
-			"scope": "comment",
+			"scope": "comment", // comment color
 			"settings": {
 				"foreground": "#7CA668"
 			}
