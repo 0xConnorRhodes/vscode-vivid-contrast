@@ -5,7 +5,7 @@
 
 // BASIC COLORS
     //Border Colors
-        "focusBorder": "#ff0404", // all active borders including sidebar, default: #f38518 , #aabbee
+        "focusBorder": "#f38518", // all active borders including sidebar, default: #f38518 , #aabbee, #ff0400
 		//"contrastActiveBorder": "#ff0404", // active borders not including sidebar "#3b3b37",
 		"contrastBorder": "#3b3b37", //"#3b3b37", //border around everything regardless of whether it is active
 		//"tab.activeBorder": "#689d6a", //bar below active tab
