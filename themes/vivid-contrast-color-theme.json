@@ -71,7 +71,7 @@
 		"titleBar.activeForeground": "#77ccfa",
 
         "editorIndentGuide.activeBackground": "#b1b1b1", //non-active indent guide
-        "editorIndentGuide.background": "#313031" //indent guide the cursor is in
+        "editorIndentGuide.background": "#313031" //indent guide the cursor is in was #ffffff
 	},
 
 // SYNTAX HIGHLIGHTING
